@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma do array</title>
+</head>
+<body>
+    <h1>soma do array</h1>
+    <h2 id="resultado"></h2>
+
+    <script>
+        const numeros = [10,20,30];
+        let soma = 0;
+
+        for(let i = 0; i <numeros.length; i++){
+            soma += numeros[i];
+        }
+        document.getElementById('resultado').textContent = soma;
+        
+    </script>
+
+</body>
+</html>
